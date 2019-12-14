@@ -1,14 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-class App extends Component {
+class App extends Component{
     render() {
         return (
-            <div>
-                Hello World
-                <ul className="my-list">
-                    <li>你好</li>
-                    <li>你好</li>
-                </ul>
+            <div className="my-list">
+                <li>{false?'JSPang.com':'技术胖'}</li>
+                <li>I Love React</li>
             </div>
         )
     }
